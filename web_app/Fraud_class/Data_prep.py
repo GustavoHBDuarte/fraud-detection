@@ -12,16 +12,18 @@ import json
 class Data_prep(object):
     
     def __init__(self):        
-        self.amount_scaler          =  pickle.load(open('/mnt/d/Gustavo/fraud-detection/amount_scaler.pkl', 'rb')) # Opening scaler        
-        self.day_of_month_scaler    =  pickle.load(open('/mnt/d/Gustavo/fraud-detection/day_of_month_scaler.pkl', 'rb')) # Opening scaler        
-        self.newbalanceDest_scaler  =  pickle.load(open('/mnt/d/Gustavo/fraud-detection/newbalanceDest_scaler.pkl', 'rb')) # Opening scaler
+        self.amount_scaler          =  pickle.load(open('encoders/amount_scaler.pkl', 'rb')) # Opening scaler        
+        self.day_of_month_scaler    =  pickle.load(open('encoders/day_of_month_scaler.pkl', 'rb')) # Opening scaler        
+        self.newbalanceDest_scaler  =  pickle.load(open('encoders/newbalanceDest_scaler.pkl', 'rb')) # Opening scaler        
                 
-        self.newbalanceOrig_scaler  =  pickle.load(open('/mnt/d/Gustavo/fraud-detection/newbalanceOrig_scaler.pkl', 'rb')) # Opening scaler        
-        self.oldbalanceDest_scaler  =  pickle.load(open('/mnt/d/Gustavo/fraud-detection/oldbalanceDest_scaler.pkl', 'rb')) # Opening scaler        
-        self.oldbalanceOrg_scaler   =  pickle.load(open('/mnt/d/Gustavo/fraud-detection/oldbalanceOrg_scaler.pkl', 'rb')) # Opening scaler        
-        self.step_scaler            =  pickle.load(open('/mnt/d/Gustavo/fraud-detection/step_scaler.pkl', 'rb')) # Opening scaler        
-        self.type_encoder           =  pickle.load(open('/mnt/d/Gustavo/fraud-detection/type_encoder.pkl', 'rb')) # Opening encoder        
-        self.week_of_month_scaler   =  pickle.load(open('/mnt/d/Gustavo/fraud-detection/week_of_month_scaler.pkl', 'rb')) # Opening scaler
+        self.newbalanceOrig_scaler  =  pickle.load(open('encoders/newbalanceOrig_scaler.pkl', 'rb')) # Opening scaler        
+        self.oldbalanceDest_scaler  =  pickle.load(open('encoders/oldbalanceDest_scaler.pkl', 'rb')) # Opening scaler        
+        self.oldbalanceOrg_scaler   =  pickle.load(open('encoders/oldbalanceOrg_scaler.pkl', 'rb')) # Opening scaler        
+        self.step_scaler            =  pickle.load(open('encoders/step_scaler.pkl', 'rb')) # Opening scaler        
+        self.type_encoder           =  pickle.load(open('encoders/type_encoder.pkl', 'rb')) # Opening encoder        
+        self.week_of_month_scaler   =  pickle.load(open('encoders/week_of_month_scaler.pkl', 'rb')) # Opening scaler
+        
+        
     
     
     
@@ -264,6 +266,7 @@ class Data_prep(object):
         X_train = X_train.drop(columns=['isFlaggedFraud', 'is_weekend', 'time_of_day', 'dest_type', 'oldbalanceOrg_status', 'newbalanceOrig_status', 'oldbalanceDest_status', 'newbalanceDest_status', 'is_oldbalanceOrg_higherthan_newbalanceOrig', 'is_oldbalanceDest_higherthan_newbalanceDest', 'transaction_direction'])
         
         
+
         
         
         # Label encoding - 'type'
