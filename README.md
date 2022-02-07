@@ -141,14 +141,14 @@ However, Transaction Tracker is expanding and in order to acquire customers more
 <p><font size="3">- Fraud happens mostly AM. 
     <br>Answer: <b>TRUE</b>. Fraud transactions mostly happen AM.</font></p>
 
-![Alt text](https://drive.google.com/uc?export=view&id=1j-R4ncXCgW_Dfx5OOT3QpZLxESL579mc "a title")
+<img src="https://drive.google.com/uc?export=view&id=1j-R4ncXCgW_Dfx5OOT3QpZLxESL579mc" style="width: 650px; max-width: 100%; height: auto" title="Click to enlarge picture" />
 
 
 <br>
     
 <p><font size="3">Non-fraud transactions, however, happen in the opposite direction.</font></p>
 
-![Alt text](https://drive.google.com/uc?export=view&id=1hFy5U25SN9QPmBiGzgx2GkbaLToJe6DD "a title")
+<img src="https://drive.google.com/uc?export=view&id=1hFy5U25SN9QPmBiGzgx2GkbaLToJe6DD" style="width: 650px; max-width: 100%; height: auto" title="Click to enlarge picture" />
     
 
     
@@ -159,13 +159,13 @@ However, Transaction Tracker is expanding and in order to acquire customers more
 
 <p><font size="3"><i>Fraud transactions during days of week:</i></font></p>   
 
-![Alt text](https://drive.google.com/uc?export=view&id=1oNke6PeroRo3wAfMkwOnM-Vb-Kn9m93g "a title")
+<img src="https://drive.google.com/uc?export=view&id=1oNke6PeroRo3wAfMkwOnM-Vb-Kn9m93g" style="width: 650px; max-width: 100%; height: auto" title="Click to enlarge picture" />
 
   
 
 <p><font size="3"><i>Non-fraud transactions during days of week:</i></font></p>   
 
-![Alt text](https://drive.google.com/uc?export=view&id=1KJNiqZ_YZia3AqMZJ0ZWUPwoBcROVLfk "a title")
+<img src="https://drive.google.com/uc?export=view&id=1KJNiqZ_YZia3AqMZJ0ZWUPwoBcROVLfk" style="width: 650px; max-width: 100%; height: auto" title="Click to enlarge picture" />
     
     
     
@@ -173,13 +173,13 @@ However, Transaction Tracker is expanding and in order to acquire customers more
 <p><font size="3">- Most fraud transactions happen when origin new balance is zero. 
     <br>Answer: <b>TRUE</b>.  After most fraud transactions the remaining origin balance is zero.</font></p>
 
-![Alt text](https://drive.google.com/uc?export=view&id=1lZ_ZOvu67ASbxSCqTeOetgAEuHsZDcIK "a title")
+<img src="https://drive.google.com/uc?export=view&id=1lZ_ZOvu67ASbxSCqTeOetgAEuHsZDcIK" style="width: 650px; max-width: 100%; height: auto" title="Click to enlarge picture" />
 
 
     
 <p><font size="3">Non-fraud transactions, however, the non-zero/zero ratio is different.</font></p>    
 
-![Alt text](https://drive.google.com/uc?export=view&id=1o7fLYfx0oJJwvx_yEkEbddK4sO_Vr_UW "a title")
+<img src="https://drive.google.com/uc?export=view&id=1o7fLYfx0oJJwvx_yEkEbddK4sO_Vr_UW" style="width: 650px; max-width: 100%; height: auto" title="Click to enlarge picture" />
       
     
     
@@ -411,14 +411,14 @@ However, Transaction Tracker is expanding and in order to acquire customers more
     
 <br>
 
-![Alt text](https://drive.google.com/uc?export=view&id=1R2-Yb-ljCzx0NR2Wo_UtzQGAAxLvO2Tf "a title")
+<img src="https://drive.google.com/uc?export=view&id=1R2-Yb-ljCzx0NR2Wo_UtzQGAAxLvO2Tf" style="width: 650px; max-width: 100%; height: auto" title="Click to enlarge picture" />
 
     
 <br>
 
 <br>
 
-![Alt text](https://drive.google.com/uc?export=view&id=1AXr3VL3WW4_gOktXnZBoDVRct1n3gdF5 "a title")
+<img src="https://drive.google.com/uc?export=view&id=1AXr3VL3WW4_gOktXnZBoDVRct1n3gdF5" style="width: 650px; max-width: 100%; height: auto" title="Click to enlarge picture" />
 
     
 <br>
