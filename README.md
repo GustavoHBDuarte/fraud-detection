@@ -141,14 +141,15 @@ However, Transaction Tracker is expanding and in order to acquire customers more
 <p><font size="3">- Fraud happens mostly AM. 
     <br>Answer: <b>TRUE</b>. Fraud transactions mostly happen AM.</font></p>
 
+![Alt text](https://drive.google.com/uc?export=view&id=1j-R4ncXCgW_Dfx5OOT3QpZLxESL579mc "a title")
 
-<a href="https://drive.google.com/uc?export=view&id=1j-R4ncXCgW_Dfx5OOT3QpZLxESL579mc"><img src="https://drive.google.com/uc?export=view&id=1j-R4ncXCgW_Dfx5OOT3QpZLxESL579mc" style="width: 650px; max-width: 100%; height: auto" title="Click to enlarge picture" />
 
 <br>
     
-<p><font size="3">Non-fraud transactions, however, happen in the opposite direction.</font></p>    
+<p><font size="3">Non-fraud transactions, however, happen in the opposite direction.</font></p>
+
+![Alt text](https://drive.google.com/uc?export=view&id=1hFy5U25SN9QPmBiGzgx2GkbaLToJe6DD "a title")
     
-<a href="https://drive.google.com/uc?export=view&id=1hFy5U25SN9QPmBiGzgx2GkbaLToJe6DD"><img src="https://drive.google.com/uc?export=view&id=1hFy5U25SN9QPmBiGzgx2GkbaLToJe6DD" style="width: 650px; max-width: 100%; height: auto" title="Click to enlarge picture" />    
 
     
 <br>    
