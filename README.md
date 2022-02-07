@@ -75,7 +75,7 @@ However, Transaction Tracker is expanding and in order to acquire customers more
 <h1>3- Data description</h1>
 
 <br>
-  <font size="3">The dataset used on this project is a synthetic financial dataset generated in a simulator called PaySim and available on kaggle. The PaySim simulator uses aggregated data from private dataset to generate a synthetic dataset that resembles the normal operation of transactions and adds malicious behaviour to later evaluate the performance of fraud detection methods.The dataset used to build the solution has the following attributes:</font></li>
+  <font size="3">The dataset used on this project is a synthetic financial dataset generated in a simulator called PaySim and available on kaggle. The PaySim simulator uses aggregated data from private dataset to generate a synthetic dataset that resembles the normal operation of transactions and adds malicious behaviour to later evaluate the performance of fraud detection methods. The dataset used to build the solution has the following attributes:</font></li>
 <br>
 <br>
 <ul>
@@ -119,7 +119,7 @@ However, Transaction Tracker is expanding and in order to acquire customers more
 <br>
   <li><font size="3"><b>Feature selection:</b> selecting the most relevant attributes based on EDA results and suitable algorithm to maximize machine learning performance.</font></li>
 <br>
-  <li><font size="3"><b>Machine learning:</b> evaluating different algorithms and compare their results based on cross-validation. For the sake of this step a good candidate algorithm should perform better than the average-based baseline estimator.</font></li>
+  <li><font size="3"><b>Machine learning:</b> evaluating different algorithms and compare their results based on cross-validation. For the sake of this step a good candidate algorithm should perform better than the random baseline estimator.</font></li>
 <br>
   <li><font size="3"><b>Hiperparameter fine tuning:</b> randomly test different hyperparameter values in order to find some combination that improves model performance.</font></li>
 <br>
@@ -128,3 +128,332 @@ However, Transaction Tracker is expanding and in order to acquire customers more
   <li><font size="3"><b>Model deployment:</b> deploying the machine learning model to cloud environment so predictions can be accessed via API requests.</font></li>
 <br>  
 </ol>
+
+
+
+
+
+
+
+<h1>5- Main insights</h1>
+
+<br>
+<p><font size="3">- Fraud happens mostly AM. 
+    <br>Answer: <b>TRUE</b>. Fraud transactions mostly happen AM.</font></p>
+
+
+<a href="https://drive.google.com/uc?export=view&id=1j-R4ncXCgW_Dfx5OOT3QpZLxESL579mc"><img src="https://drive.google.com/uc?export=view&id=1j-R4ncXCgW_Dfx5OOT3QpZLxESL579mc" style="width: 650px; max-width: 100%; height: auto" title="Click to enlarge picture" />
+
+<br>
+    
+<p><font size="3">Non-fraud transactions, however, happen in the opposite direction.</font></p>    
+    
+<a href="https://drive.google.com/uc?export=view&id=1hFy5U25SN9QPmBiGzgx2GkbaLToJe6DD"><img src="https://drive.google.com/uc?export=view&id=1hFy5U25SN9QPmBiGzgx2GkbaLToJe6DD" style="width: 650px; max-width: 100%; height: auto" title="Click to enlarge picture" />    
+
+    
+<br>    
+<br>
+<p><font size="3">- Fraud transactions frequencies follow the trend of non-Fraud transactions to make it dificult to track. 
+    <br>Answer: <b>FALSE</b>. Fraud happens with diferent frequencies distribution when compared to non-fraud transactions.</font></p>
+
+<p><font size="3"><i>Fraud transactions during days of week:</i></font></p>   
+    
+<a href="https://drive.google.com/uc?export=view&id=1oNke6PeroRo3wAfMkwOnM-Vb-Kn9m93g"><img src="https://drive.google.com/uc?export=view&id=1oNke6PeroRo3wAfMkwOnM-Vb-Kn9m93g" style="width: 650px; max-width: 100%; height: auto" title="Click to enlarge picture" />    
+
+<p><font size="3"><i>Non-fraud transactions during days of week:</i></font></p>   
+    
+<a href="https://drive.google.com/uc?export=view&id=1KJNiqZ_YZia3AqMZJ0ZWUPwoBcROVLfk"><img src="https://drive.google.com/uc?export=view&id=1KJNiqZ_YZia3AqMZJ0ZWUPwoBcROVLfk" style="width: 650px; max-width: 100%; height: auto" title="Click to enlarge picture" />      
+    
+    
+    
+<br>
+<p><font size="3">- Most fraud transactions happen when origin new balance is zero. 
+    <br>Answer: <b>TRUE</b>.  After most fraud transactions the remaining origin balance is zero.</font></p>
+
+
+<a href="https://drive.google.com/uc?export=view&id=1lZ_ZOvu67ASbxSCqTeOetgAEuHsZDcIK"><img src="https://drive.google.com/uc?export=view&id=1lZ_ZOvu67ASbxSCqTeOetgAEuHsZDcIK" style="width: 650px; max-width: 100%; height: auto" title="Click to enlarge picture" />    
+
+
+    
+<p><font size="3">Non-fraud transactions, however, the non-zero/zero ratio is different.</font></p>    
+    
+<a href="https://drive.google.com/uc?export=view&id=1o7fLYfx0oJJwvx_yEkEbddK4sO_Vr_UW"><img src="https://drive.google.com/uc?export=view&id=1o7fLYfx0oJJwvx_yEkEbddK4sO_Vr_UW" style="width: 650px; max-width: 100%; height: auto" title="Click to enlarge picture" />        
+    
+    
+<br>    
+<p><font size="3">Other hypothesis raised, as well as other insights can be checked out in the main notebook.</font></p>     
+    
+    
+    
+    
+<h1>6- Machine Learning models</h1>
+
+<br>
+<p><font size="3">Models evaluated:</font></p>
+
+
+<ul>
+  <li><font size="3">Random model (baseline)</font></li>
+  <li><font size="3">Logistic Regression</font></li>
+  <li><font size="3">Random Forest</font></li>
+  <li><font size="3">XGBoost</font></li>
+  <li><font size="3">K-Nearest Neighbors</font></li>
+</ul>
+
+
+
+
+
+
+<h1>7- Machine Learning performance</h1>
+    
+    
+<br>    
+<table border="1">
+   <thead>
+   <tr>
+       <th><font size="3">Model name</font></th>
+       <th><font size="3">Accuracy CV</font></th>
+       <th><font size="3">Balanced Accuracy CV</font></th>
+       <th><font size="3">ROC-AUC CV</font></th>
+       <th><font size="3">Precision CV</font></th>
+       <th><font size="3">F1-score CV</font></th>
+       <th><font size="3">Recall CV</font></th>
+   </tr>
+   </thead>
+   <tbody>
+   <tr>
+       <td><font size="3">Random classifier (baseline)</font></td>
+       <td><font size="3">0.997404</font></td>
+       <td><font size="3">0.499523</font></td>
+       <td><font size="3">0.499523</font></td>
+       <td><font size="3">0.000359</font></td>
+       <td><font size="3">0.000367</font></td>
+       <td><font size="3">0.000375</font></td>
+   </tr>
+   <tr>
+       <td><font size="3">Logistic Regression</font></td>
+       <td><font size="3">0.998893</font></td>
+       <td><font size="3">0.572757</font></td>
+       <td><font size="3">0.867702</font></td>
+       <td><font size="3">0.894009</font></td>
+       <td><font size="3">0.250323</font></td>
+       <td><font size="3">0.145536</font></td>
+   </tr>
+          <tr>
+       <td><font size="3">Random Forest</font></td>
+       <td><font size="3">0.999724</font></td>
+       <td><font size="3">0.893658</font></td>
+       <td><font size="3">0.966993</font></td>
+       <td><font size="3">0.993845</font></td>
+       <td><font size="3">0.87861</font></td>
+       <td><font size="3">0.787322</font></td>
+   </tr>
+          <tr>
+       <td><font size="3">XGBoost</font></td>
+       <td><font size="3">0.999763</font></td>
+       <td><font size="3">0.912596</font></td>
+       <td><font size="3">0.998484</font></td>
+       <td><font size="3">0.986105</font></td>
+       <td><font size="3">0.898509</font></td>
+       <td><font size="3">0.825206</font></td>
+   </tbody>
+       <td><font size="3">KNN</font></td>
+       <td><font size="3">0.999649</font></td>
+       <td><font size="3">0.873391</font></td>
+       <td><font size="3">0.915126</font></td>
+       <td><font size="3">0.9698</font></td>
+       <td><font size="3">0.843823</font></td>
+       <td><font size="3">0.746812</font></td>
+</table>
+    
+    
+    
+<br>
+<p><font size="3">K-fold (number of splits=10) cross-validation provided replicates that allowed standard deviation calculation of each metric evaluated (Accuracy, Balanced Accuracy, ROC-AUC, Precision, F1-score, Recall). Cross-validation step was applied to the best performing model in the previous step (XGBoost).</font></p><br>
+
+    
+<table border="1">
+   <thead>
+   <tr>
+       <th><font size="3">Model name</font></th>
+       <th><font size="3">Accuracy CV</font></th>
+       <th><font size="3">Balanced Accuracy CV</font></th>
+       <th><font size="3">ROC-AUC CV</font></th>
+       <th><font size="3">Precision CV</font></th>
+       <th><font size="3">F1-score CV</font></th>
+       <th><font size="3">Recall CV</font></th>
+   </tr>
+   </thead>
+   <tbody>
+   <tr>
+       <td><font size="3">XGBoost</font></td>
+       <td><font size="3">1.0 +/-0.0</font></td>
+       <td><font size="3">0.91 +/-0.01</font></td>
+       <td><font size="3">1.0 +/-0.0</font></td>
+       <td><font size="3">0.98 +/-0.01</font></td>
+       <td><font size="3">0.9 +/-0.01</font></td>
+       <td><font size="3">0.83 +/-0.02</font></td>
+   </tr>         
+   </tbody>
+</table>    
+    
+    
+    
+
+<br>
+    
+    
+    
+    
+
+<h1>8- Hyperparameter fine tuning</h1>
+
+<br>
+<p><font size="3">Model hyperparameters were adjusted via random search fine tuning in order to improve model performance.The following table shows the metrics for the XGBoost tuned model:</font></p>
+<br>
+
+<table border="1">
+   <thead>
+   <tr>
+       <th><font size="3">Model name</font></th>
+       <th><font size="3">Accuracy CV</font></th>
+       <th><font size="3">Balanced Accuracy CV</font></th>
+       <th><font size="3">ROC-AUC CV</font></th>
+       <th><font size="3">Precision CV</font></th>
+       <th><font size="3">F1-score CV</font></th>
+       <th><font size="3">Recall CV</font></th>
+   </tr>
+   </thead>
+   <tbody>
+   <tr>
+       <td><font size="3">XGBoost</font></td>
+       <td><font size="3">1.0 +/-0.0</font></td>
+       <td><font size="3">0.92 +/-0.01</font></td>
+       <td><font size="3">1.0 +/-0.0</font></td>
+       <td><font size="3">0.95 +/-0.01</font></td>
+       <td><font size="3">0.89 +/-0.01</font></td>
+       <td><font size="3">0.84 +/-0.01</font></td>
+   </tr>         
+   </tbody>
+</table>
+
+<br>
+<p><font size="3">As expected fine tuning did not improve significantly model's performance.</font>    
+<br>
+    
+    
+    
+    
+ 
+    
+    
+    
+    
+
+
+<h1>9- Model performance to business performance</h1>
+
+    
+<br>
+<p><font size="3">Transaction Tracker's forecasted revenue and profits of implementing the proposed machine learning model:</font></p>    
+    
+    
+<br>
+    <p><font size="3"><i>Revenue:</i></font></p>
+
+<ul>
+  <li><font size="3">Sum of amount of fraudulent transactions correctly detected by Transaction Tracker: 3,719,735,063.56 dollars</font></li><br>
+  <li><font size="3">Transaction Tracker amount received for detecting fraudulent transactions (25%): 929,933,765.89 dollars</font></li><br>
+  <li><font size="3">Sum of amount of non-fraudulent transactions detected by Transaction Tracker as fraud: 27,691,057.44 dollars</font></li><br>
+  <li><font size="3">Transaction Tracker amount received for this transaction operation (5%): 1,384,552.87 dollars</font></li><br>
+  <li><font size="3">Sum of amount of fraudulent transactions  wrongfully detected by Transaction Tracker as non-fraud: 85,846,430.44 dollars</font></li><br>  
+  <li><font size="3">Transaction Tracker refound cashback (-100%): 85,846,430.44 dollars</font></li><br>
+</ul>    
+    
+
+<p><font size="3"><i>Profit:</i></font></p>
+
+<ul>
+  <li><font size="3">(25%): 929,933,765.89</font></li><br>
+  <li><font size="3">+(5%): 1,384,552.87</font></li><br>
+  <li><font size="3">-(100%): 85,846,430.44</font></li><br>
+    <li><font size="3"><b>Total profit: 845,471,888.32</b></font></li><br>
+</ul>        
+
+
+<p><font size="3">Now we are going to point out the advantages for client that hires the service provided by Transaction Tracker. Again, we will assume for this scenario that the hiring client uses the random baseline estimator.</font></p>      
+<br>    
+    
+<p><font size="3">Baseline model:</font></p>
+
+<ul>
+  <li><font size="3">Sum of amount of fraudulent transactions correctly detected by baseline model: 1,789,207.89 dollars</font></li><br>
+  <li><font size="3">Sum of amount of fraudulent transactions wrongfully detected by baseline model as non-fraud: 3,803,792,286.11 dollars.</font></li><br>
+</ul>      
+
+    
+    
+<p><font size="3">Expenses (loss) calculation:</font></p>
+
+<ul>
+  <li><font size="3">Without hiring Transaction Tracker services: 3,803,792,286.11 dollars</font></li><br>
+  <li><font size="3">Hiring Transaction Tracker services:<br><br>
+      (25%): 929,933,765.89<br><br>
+      +(5%): 1,384,552.87<br><br>
+      Sum: 931,318,318.76<br><br>
+      <b>Total saved by hiring Transaction Tracker services: 2,875,243,073.09 dollars.</b></font></li><br>
+</ul>       
+    
+    
+<br>
+
+<a href="https://drive.google.com/uc?export=view&id=1R2-Yb-ljCzx0NR2Wo_UtzQGAAxLvO2Tf"><img src="https://drive.google.com/uc?export=view&id=1R2-Yb-ljCzx0NR2Wo_UtzQGAAxLvO2Tf" style="width: 650px; max-width: 100%; height: auto" title="Click to enlarge picture" />
+
+    
+<br>
+
+<br>
+
+<a href="https://drive.google.com/uc?export=view&id=1AXr3VL3WW4_gOktXnZBoDVRct1n3gdF5"><img src="https://drive.google.com/uc?export=view&id=1AXr3VL3WW4_gOktXnZBoDVRct1n3gdF5" style="width: 650px; max-width: 100%; height: auto" title="Click to enlarge picture" />
+
+    
+<br>
+    
+    
+
+<h1>10- Model deployment</h1>
+
+<br>
+
+<ul>
+  <li><font size="3">Machine learning model was successfully deployed on Heroku cloud. Predictions can be acessed using the following endpoint: <a href="https://transaction-fraud-tracker.herokuapp.com/transactiontracker/predict">https://transaction-fraud-tracker.herokuapp.com/transactiontracker/predict</a>.</font>
+      
+<font size="3">To access predictions the user should make a API request (POST) sending the information about some transaction as json. The request should return the same data with the prediction included. Some model unseen data for testing purposes can be acessed here: <a href="https://drive.google.com/u/1/uc?id=1XBPpvCjOQhVDgHFeujoQ9RIDskns2-pp&export=download">https://drive.google.com/u/1/uc?id=1XBPpvCjOQhVDgHFeujoQ9RIDskns2-pp&export=download</a>  </font>
+</ul>    
+    
+
+  
+    
+    
+    
+    
+
+<h1>11- Conclusions</h1>
+
+<br>
+<p><font size="3">Althought the presented results is not the best that could be achieved and there is room for model improvements decreasing its corresponding error, the proposed solution reached satisfactory results performing better than random estimator satisfying the needs of the business. From the business standpoint, the proposed solution is capable of both generating profits for the Transaction Tracker company and reducing losses for the hiring client, therefore satisfying business needs.</font></p>
+<br>
+
+    
+    
+    
+    
+<h1>12- Next steps/Perspectives</h1>
+
+<br>
+   
+    
+<ul>
+  <li><font size="3">Work on model improvements to reduce error metrics.</font></li>
+</ul
