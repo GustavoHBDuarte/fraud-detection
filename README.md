@@ -411,14 +411,14 @@ However, Transaction Tracker is expanding and in order to acquire customers more
     
 <br>
 
-<a href="https://drive.google.com/uc?export=view&id=1R2-Yb-ljCzx0NR2Wo_UtzQGAAxLvO2Tf"><img src="https://drive.google.com/uc?export=view&id=1R2-Yb-ljCzx0NR2Wo_UtzQGAAxLvO2Tf" style="width: 650px; max-width: 100%; height: auto" title="Click to enlarge picture" />
+![Alt text](https://drive.google.com/uc?export=view&id=1R2-Yb-ljCzx0NR2Wo_UtzQGAAxLvO2Tf "a title")
 
     
 <br>
 
 <br>
 
-<a href="https://drive.google.com/uc?export=view&id=1AXr3VL3WW4_gOktXnZBoDVRct1n3gdF5"><img src="https://drive.google.com/uc?export=view&id=1AXr3VL3WW4_gOktXnZBoDVRct1n3gdF5" style="width: 650px; max-width: 100%; height: auto" title="Click to enlarge picture" />
+![Alt text](https://drive.google.com/uc?export=view&id=1AXr3VL3WW4_gOktXnZBoDVRct1n3gdF5 "a title")
 
     
 <br>
