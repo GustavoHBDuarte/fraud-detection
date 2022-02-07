@@ -158,12 +158,14 @@ However, Transaction Tracker is expanding and in order to acquire customers more
     <br>Answer: <b>FALSE</b>. Fraud happens with diferent frequencies distribution when compared to non-fraud transactions.</font></p>
 
 <p><font size="3"><i>Fraud transactions during days of week:</i></font></p>   
-    
-<a href="https://drive.google.com/uc?export=view&id=1oNke6PeroRo3wAfMkwOnM-Vb-Kn9m93g"><img src="https://drive.google.com/uc?export=view&id=1oNke6PeroRo3wAfMkwOnM-Vb-Kn9m93g" style="width: 650px; max-width: 100%; height: auto" title="Click to enlarge picture" />    
+
+![Alt text](https://drive.google.com/uc?export=view&id=1oNke6PeroRo3wAfMkwOnM-Vb-Kn9m93g "a title")
+
+  
 
 <p><font size="3"><i>Non-fraud transactions during days of week:</i></font></p>   
-    
-<a href="https://drive.google.com/uc?export=view&id=1KJNiqZ_YZia3AqMZJ0ZWUPwoBcROVLfk"><img src="https://drive.google.com/uc?export=view&id=1KJNiqZ_YZia3AqMZJ0ZWUPwoBcROVLfk" style="width: 650px; max-width: 100%; height: auto" title="Click to enlarge picture" />      
+
+![Alt text](https://drive.google.com/uc?export=view&id=1KJNiqZ_YZia3AqMZJ0ZWUPwoBcROVLfk "a title")
     
     
     
@@ -171,14 +173,14 @@ However, Transaction Tracker is expanding and in order to acquire customers more
 <p><font size="3">- Most fraud transactions happen when origin new balance is zero. 
     <br>Answer: <b>TRUE</b>.  After most fraud transactions the remaining origin balance is zero.</font></p>
 
-
-<a href="https://drive.google.com/uc?export=view&id=1lZ_ZOvu67ASbxSCqTeOetgAEuHsZDcIK"><img src="https://drive.google.com/uc?export=view&id=1lZ_ZOvu67ASbxSCqTeOetgAEuHsZDcIK" style="width: 650px; max-width: 100%; height: auto" title="Click to enlarge picture" />    
+![Alt text](https://drive.google.com/uc?export=view&id=1lZ_ZOvu67ASbxSCqTeOetgAEuHsZDcIK "a title")
 
 
     
 <p><font size="3">Non-fraud transactions, however, the non-zero/zero ratio is different.</font></p>    
-    
-<a href="https://drive.google.com/uc?export=view&id=1o7fLYfx0oJJwvx_yEkEbddK4sO_Vr_UW"><img src="https://drive.google.com/uc?export=view&id=1o7fLYfx0oJJwvx_yEkEbddK4sO_Vr_UW" style="width: 650px; max-width: 100%; height: auto" title="Click to enlarge picture" />        
+
+![Alt text](https://drive.google.com/uc?export=view&id=1o7fLYfx0oJJwvx_yEkEbddK4sO_Vr_UW "a title")
+      
     
     
 <br>    
